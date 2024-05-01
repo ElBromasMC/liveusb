@@ -1,0 +1,295 @@
+### Archiso packages
+##
+#
+alsa-utils
+amd-ucode
+arch-install-scripts
+archinstall
+b43-fwcutter
+base
+bcachefs-tools
+bind
+bolt
+broadcom-wl
+btrfs-progs
+clonezilla
+cryptsetup
+darkhttpd
+ddrescue
+dhclient
+dhcpcd
+diffutils
+dmidecode
+dmraid
+dnsmasq
+dosfstools
+e2fsprogs
+edk2-shell
+efibootmgr
+ethtool
+exfatprogs
+f2fs-tools
+fatresize
+foot-terminfo
+fsarchiver
+gnu-netcat
+gpart
+gpm
+gptfdisk
+grml-zsh-config
+grub
+hdparm
+hyperv
+intel-ucode
+irssi
+iw
+iwd
+jfsutils
+kitty-terminfo
+ldns
+less
+lftp
+libfido2
+libusb-compat
+linux
+linux-atm
+linux-firmware
+linux-firmware-marvell
+lsscsi
+lvm2
+lynx
+man-db
+man-pages
+mc
+mdadm
+memtest86+
+memtest86+-efi
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+modemmanager
+mtools
+nano
+nbd
+ndisc6
+nfs-utils
+nilfs-utils
+nmap
+ntfs-3g
+nvme-cli
+open-iscsi
+open-vm-tools
+openconnect
+openpgp-card-tools
+openssh
+openvpn
+partclone
+parted
+partimage
+pcsclite
+ppp
+pptpclient
+pv
+qemu-guest-agent
+refind
+reflector
+reiserfsprogs
+rp-pppoe
+rsync
+rxvt-unicode-terminfo
+screen
+sdparm
+sequoia-sq
+sg3_utils
+smartmontools
+sof-firmware
+squashfs-tools
+sudo
+syslinux
+systemd-resolvconf
+tcpdump
+terminus-font
+testdisk
+tmux
+tpm2-tools
+tpm2-tss
+udftools
+usb_modeswitch
+usbmuxd
+usbutils
+vim
+virtualbox-guest-utils-nox
+vpnc
+wezterm-terminfo
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+xfsprogs
+xl2tpd
+zsh
+
+### Desktop packages
+##
+## Required or recommended
+acpi
+alsa-firmware
+aspell-en
+blueman
+feh
+gnome-themes-extra
+gparted
+gst-libav
+gvfs-afc
+gvfs-mtp
+gvfs-smb
+intel-media-driver
+libcanberra
+libva-intel-driver
+libva-mesa-driver
+libva-utils
+libva-vdpau-driver
+lightdm-gtk-greeter-settings
+lsb-release
+mesa-vdpau
+mobile-broadband-provider-info
+mousetweaks
+network-manager-applet
+pavucontrol
+pipewire-alsa
+pipewire-pulse
+samba
+sound-theme-freedesktop
+ttf-droid
+ttf-hack
+vdpauinfo
+wireplumber
+xdg-user-dirs-gtk
+xf86-input-evdev
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+xf86-video-vesa
+xfce4
+xfce4-goodies
+xorg-mkfontscale
+xorg-server
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xinit
+xorg-xinput
+xorg-xsetroot
+
+## Optional
+catfish
+cryfs
+fprintd
+gsmartcontrol
+gvfs-google
+gvfs-gphoto2
+gvfs-nfs
+hexchat
+#jre-openjdk
+#mesa-demos
+mesa-utils
+networkmanager-openconnect
+openpgp-card-tools
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+wezterm-terminfo
+numlockx
+onboard
+#seahorse
+system-config-printer
+xf86-input-elographics
+#xf86-input-void
+#xf86-input-wacom
+xorg-twm
+xorg-xgamma
+xorg-xhost
+xorg-xkill
+xorg-xlsclients
+xorg-xrefresh
+xorg-xvinfo
+xorg-xwininfo
+
+### Browser
+##
+# Recommended
+#chromium
+firefox
+
+### Printing
+###
+# Optional
+cups-pdf cups-pk-helper
+
+### Nvidia graphics driver
+##
+# Optional
+#nvidia nvidia-settings bbswitch
+
+### Office
+##
+# Optional
+#abiword
+#gnumeric
+#hunspell-en_US libreoffice-fresh
+#hunspell-en_US libreoffice-still
+
+### Virtualbox guest
+##
+# Optional
+#virtualbox-guest-modules-arch virtualbox-guest-utils
+
+### Vulkan
+##
+# Optional
+#amdvlk
+#vulkan-intel
+#vulkan-mesa-layers
+#vulkan-radeon
+#vulkan-tools
+
+### Intel graphics driver
+## The Xorg built-in modesetting driver generally performs
+## better than Intel's driver. Use the one which works
+## the best with your hardware (default: not installed)
+#
+#xf86-video-intel
+
+### Additional packages
+##
+# Required
+#
+# Optional
+bash-completion
+binutils
+byobu
+cpio
+cpupower
+fakeroot
+git
+grsync
+hddtemp
+hwinfo
+neofetch
+net-tools
+os-prober
+p7zip
+pacman-contrib
+powertop
+pwgen
+strace
+tree
+unrar
+wget
+whois
+wireguard-tools
+zip
+zsh-autosuggestions
+
+# Nwipe and some optional dependencies
+nwipe
+coreutils
